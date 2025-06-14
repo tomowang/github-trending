@@ -21,3 +21,5 @@ curl http://localhost:18000/api/trending
 # or specify language
 curl http://localhost:18000/api/trending/python
 ```
+
+See [API Documentation](./api.md) for more details.
