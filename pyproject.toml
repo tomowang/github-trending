@@ -1,0 +1,14 @@
+[project]
+name = "github-trending"
+version = "0.1.0"
+description = "Service to crawler github trending and response structured JSON list."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "click>=8.2.1",
+    "fastapi[standard]>=0.115.12",
+    "pydantic>=2.11.5",
+    "requests>=2.32.3",
+    "uvicorn>=0.34.3",
+]
