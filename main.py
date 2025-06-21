@@ -138,11 +138,11 @@ def get_trending_repositories(language: Optional[str] = None) -> List[TrendingRe
 
             # Extract description
             description_tag = article.find("p", class_="col-9")
-            description = description_tag.text.strip() if description_tag else None
+            description = description_tag.text.strip() if description_tag else ''
 
             # Extract language
             language_tag = article.find("span", itemprop="programmingLanguage")
-            language = language_tag.text.strip() if language_tag else None
+            language = language_tag.text.strip() if language_tag else ''
 
             # Extract stars and forks
             # Look for <a> tags with specific href patterns
